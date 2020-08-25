@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="congthuckhoia.ly_thanh_dat.thpt_nguyen_van_troi.congthuclythuyetthithpt2016khoia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Form_design.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac"
+            android:label="@string/luonggiac" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich"
+            android:label="@string/giaitich" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_to_hop_acvt.Dai_so_to_hop"
+            android:label="@string/daisotohop" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so"
+            android:label="@string/daiso" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_phang_acvt.Hinh_hoc_phang"
+            android:label="@string/hinhhocphang" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_khong_gian"
+            android:label="@string/hinhhockhonggian" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_giai_tich"
+            android:label="@string/hinhhocgiaitich" />
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac_hethuccoban"
+            android:label="Hệ thức cơ bản" />
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac_cong_thuc_cong"
+            android:label="Công thức cộng" />
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac_cong_thuc_nhan"
+            android:label="Công thức nhân" />
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac_cong_thuc_bien_doi"
+            android:label="Công thức biến đổi" />
+        <activity
+            android:name=".Toan_hoc.luong_giac_acvt.Luong_giac_phuong_trinh_luong_giac"
+            android:label="Phương trình lượng giác" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_ung_dung_cua_dao_ham"
+            android:label="Ứng dụng của đạo hàm" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_dao_ham"
+            android:label="Đạo hàm" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_cac_van_de_cua_ham_so"
+            android:label="Các vấn đề của hàm số" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_luy_thua"
+            android:label="Lũy thừa" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_nguyen_ham"
+            android:label="Nguyên hàm" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_so_phuc"
+            android:label="Số phức" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_tich_phan"
+            android:label="Tích phân" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_PT_bac_hai"
+            android:label="Phương trình bậc hai" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_tam_thuc_bac_hai"
+            android:label="Tam thức bậc hai" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_bac_dang_thuc"
+            android:label="Bấc đẳng thức" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_phuongtrinhchuaGTTD"
+            android:label="Phương trình chứa giá trị tuyệt đối" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_phuong_trinh_chua_an_duoi_dau_can"
+            android:label="Phương trình chứa ẩn dưới dấu căn" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_PT_bac_bon"
+            android:label="Phương trình bậc bốn" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_BPT_chua_dau_tri_tuyet_doi"
+            android:label="Bất phương trình chứa dấu trị tuyệt đối" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_BPT_chua_an_trong_dau_can"
+            android:label="Bất phương trình chứa ẩn trong dấu căn" />
+        <activity
+            android:name=".Toan_hoc.Dai_so_acvt.Dai_so_HPT"
+            android:label="Hệ phương trình" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_phang_acvt.Hinh_hoc_phang_HTL"
+            android:label="Hệ thức lượng trong tam giác" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_phang_acvt.Hinh_hoc_phang_dien_tich"
+            android:label="Các công thức tính diện tích" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_2DT_sog_sog"
+            android:label="Hai đường thẳng song song" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinhh_hoc_KG_dt_va_mp_sogsog"
+            android:label="Đường thẳng và mặt phẳng song song" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_haimp_songsong"
+            android:label="Hai mặt phẳng song song" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_DT_vuong_mp"
+            android:label="Đường thẳng vuông góc với mặt phẳng" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_hai_mp_vuonggoc"
+            android:label="Hai mặt phẳng vuông góc" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_khoangcach"
+            android:label="Khoảng cách" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_goc"
+            android:label="Góc" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_khoidadien"
+            android:label="Khối đa diện" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_KG.Hinh_hoc_KG_khoicau"
+            android:label="Khối Cầu - Trụ - Nón" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_oxy"
+            android:label="Tọa độ trong mặt phẳng OXY" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_DT"
+            android:label="Đường thẳng" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_duongtron"
+            android:label="Đường tròn" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_Elip"
+            android:label="Elip" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_Hypebol"
+            android:label="hyperbol" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_KG_toadovector"
+            android:label="Tọa độ Vector" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_toadodiem"
+            android:label="Tọa độ điểm" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_mat_phang"
+            android:label="Mặt phẳng" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_DTtrongKG"
+            android:label="Đường thẳng trong không gian" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_khoangcachgoc"
+            android:label="Khoảng cách - Góc" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_PTMatcau"
+            android:label="Phương trình mặt cầu" />
+        <activity
+            android:name=".Toan_hoc.Giai_tich_acvt.Giai_tich_logarit"
+            android:label="Logarit" />
+        <activity
+            android:name=".Toan_hoc.Hinh_hoc_GT.Hinh_hoc_GT_Parabol"
+            android:label="Parabol" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Co_hoc"
+            android:label="Cơ Học" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_DHCDiem"
+            android:label="Động học chất điểm" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_chuyendongco"
+            android:label="Chuyển động cơ" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_chuyendongthangdeu"
+            android:label="Chuyển động thẳng đều" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_chuyendongthangbiendoideu"
+            android:label="Chuyển động thẳng biến đổi đều" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_suroitudo"
+            android:label="Sự rơi tự do" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_chuyendongtrondeu"
+            android:label="Chuyển động tròn đều" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_congvantoc"
+            android:label="Tính tương đối của chuyển động - Công thức cộng vận tốc" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_hoc_chat_diem.Co_hoc_saiso"
+            android:label="Sai số của phép đo các đại lượng vật lý" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_DLHCdiem"
+            android:label="Động lực học chất điểm" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_tonghopluc"
+            android:label="Tổng hợp và phân tích lực - Điều kiện cân bằng của chất điểm" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_newton"
+            android:label="Ba định luật Newton" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_luchapdan"
+            android:label="Lực hấp dẫn - Định luật vạn vật hấp dẫn" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_lucdanhoi"
+            android:label="Lực đàn hồi của lò xo - định luật Hookes" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_lucmasat"
+            android:label="Lực ma sát" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_luchuongtam"
+            android:label="Lực hướng tâm" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Dong_luc_hoc_chat_diem.Co_hoc_nemngang"
+            android:label="Bài toán về chuyển động ném ngang" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_CBCDong"
+            android:label="Cân bằng và chuyển động của vật rắn" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_baluckhongsongsong"
+            android:label="Cân bằng của một vật chịu tác dụng của 2 và 3 lực không song song" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_momen"
+            android:label="Cân bằng của một vật có trục quay cố định - Momen lực" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_quytachoplucss"
+            android:label="Quy tắc hợp lực song song cùng chiều" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_matchande"
+            android:label="Các dạng cân bằng - Cân bằng của một vật có mặt chân đế" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_tinhtien"
+            android:label="Chuyển động tịnh tiến của vật rắn - Chuyển động quay của vật rắn quanh một trục cố định" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Can_bang_va_chuyen_dong_cua_vat_ran.Co_hoc_ngauluc"
+            android:label="Ngẫu lực" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_DLBtoan"
+            android:label="Các định luật bảo toàn" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_dongluong"
+            android:label="Động lượng - Các định luật bảo toàn động lượng" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_congsuat"
+            android:label="Công và công suất" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_dongnang"
+            android:label="Động năng" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_thenang"
+            android:label="Thế năng" />
+        <activity
+            android:name=".Vat_lyy.Co_hc.Cac_dinh_luat_bao_toan.Co_hoc_conang"
+            android:label="Cơ năng" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.Nhiet_hoc"
+            android:label="Nhiệt học" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chat_khi.Chat_khi"
+            android:label="Chất khí" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chat_khi.nhiet_hoc_cautaochat"
+            android:label="Cấu tạo chất - Thuyết động học phân tử" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chat_khi.nhiet_hoc_dangnhiet"
+            android:label="Quá trình đẳng nhiệt - Định luật Boyle - Mariotte" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chat_khi.nhiet_hoc_dangtich"
+            android:label="Quá trình đẳng tích - Định luật Charles" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chat_khi.nhiet_hoc_pttthai"
+            android:label="Phương trình trạng thái của khí lý tưởng" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_CSCnhietdongluchoc.Nhiet_hoc_CSNDLhoc"
+            android:label="Cơ sở của nhiệt động lực học" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_CSCnhietdongluchoc.nhiet_hoc_noinang"
+            android:label="Nội năng và sự biến thiên nội năng" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_CSCnhietdongluchoc.nhiet_hoc_nguyenlynoinang"
+            android:label="Các nguyên lý của nhiệt động lực học" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_chatran_chatlong"
+            android:label="Chất rắn và chất lỏng - Sự chuyển thể" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_chatrankettinh"
+            android:label="Chất rắn kết tinh - Chất rắn vô định hình" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_suno"
+            android:label="Sự nở vì nhiệt của chất rắn" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_bematcl"
+            android:label="Các hiện tượng bề mặt chất lỏng" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_suchuyenthe"
+            android:label="Sự chuyển thể của các chất" />
+        <activity
+            android:name=".Vat_lyy.Nhiet_hc.nhiet_hoc_chatran_chatlong.nhiet_hoc_doamkk"
+            android:label="Độ ẩm của không khí" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_hoc"
+            android:label="Điện học" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_tich_dien_truong.dien_hoc_dientich"
+            android:label="Điện tích - Điện trường" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_tich_dien_truong.dien_hoc_culong"
+            android:label="Định luật Cu-Lông - Định luật bảo toàn điện tích" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_tich_dien_truong.dien_hoc_dientruong"
+            android:label="Điện trường" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_tich_dien_truong.dien_hoc_hieudienthe"
+            android:label="Công của lục điện - Hiệu điện thế" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dien_tich_dien_truong.dien_hoc_tudien"
+            android:label="Tụ điện" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_dong_dien_khong_doi"
+            android:label="Dòng điện không đổi" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_dongdien"
+            android:label="Dòng điện" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_omdientro"
+            android:label="Định luật Ôm toàn mạch - Các loại đoạn mạch" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_nguondien"
+            android:label="Nguồn điện" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_congdd"
+            android:label="Công - Công suất của dòng điện chạy qua một đoạn mạch" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_congnguon"
+            android:label="Công - Công suất của nguồn điện - Các dụng cụ tiêu thụ điện" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_khong_doi.dien_hoc_dinhluatomtoanmach"
+            android:label="Định luật Ôm toàn mạch - Các loại mạch" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_trong_cac_mot_truong.dien_hoc_dongdientrongcacmoitruong"
+            android:label="Dòng điện trong các môi trường" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Tu_truong.dien_hoc_tu_truong"
+            android:label="Từ trường" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Tu_truong.dien_hoc_luctu"
+            android:label="Từ trường - Lực từ - Nguyên lý chồng chất điện trường" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Tu_truong.dien_hoc_tutruongtrongday"
+            android:label="Từ trường của dòng điện chạy trong dây dẫn có hình dạng đặc biệt" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Tu_truong.dien_hoc_lorenso"
+            android:label="Tương tác giữa hai dây dẫn song song - Lực Lorensơ" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Tu_truong.dien_hoc_khungday"
+            android:label="Khung dây mang dòng điện dặt trong từ trường đều" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Cam_ung_dien_tu.dien_hoc_camuongdientu"
+            android:label="Cảm ứng điện từ" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Quang_hoc"
+            android:label="Quang học" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Khuc_xa_anh_sang.quang_hoc_khucxaanhsang"
+            android:label="Khúc xạ ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Khuc_xa_anh_sang.quang_hoc_khucxa"
+            android:label="Khúc xạ ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Khuc_xa_anh_sang.quang_hoc_phanxa"
+            android:label="Phản xạ toàn phần" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_matdungcu"
+            android:label="Mắt - Các dụng cụ quang học" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_langkinh"
+            android:label="lăng kính" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_thaukinh"
+            android:label="Thấu kính" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_mat"
+            android:label="Mắt" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_kinhlup"
+            android:label="Kính lúp" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_kinhhienvi"
+            android:label="Kính hiển vi" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Mat_cacdungcuquanghoc.quang_hoc_kinhthienvan"
+            android:label="Kính thiên văn" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_dongdienxoaychieu"
+            android:label="Dòng điện xoay chiều" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_caccongthucc"
+            android:label="Các công thức" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_cacloaimach"
+            android:label="Các loại đoạn mạch" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_dolechphahai"
+            android:label="Độ lệch qua của hai đoạn mạch mắc nối tiếp" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_baitoancuctri"
+            android:label="Bài toán cực trị" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dong_dien_xoay_chieuu.dien_hoc_maydien"
+            android:label="Máy điện và truyền tải điện năng" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_songdientu"
+            android:label="Dao động và sóng điện từ" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_subienthien"
+            android:label="Sự biến thiên điện áp, điện tích và dòng điện trong mạch LC" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_tansorieng"
+            android:label="Tần số riêng - Chu kì riêng - Tần số riêng của mạch dao động" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_nangluongdientu"
+            android:label="Năng lượng điện từ" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_cacmachdaodong"
+            android:label="Các mạch dao động mở rộng" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_songdientuu"
+            android:label="Sóng điện từ" />
+        <activity
+            android:name=".Vat_lyy.Dien_hc.Dao_dong_va_song_dien_tu.dien_hoc_cacdangbaitapsong"
+            android:label="Một số dạng bài tập" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Song_anh_sang.quang_hoc_songanhsang"
+            android:label="Sóng ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Song_anh_sang.quang_hoc_tansac"
+            android:label="Hiện tượng tán sắc ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Song_anh_sang.quang_hoc_giaothoaas"
+            android:label="Giao thoa ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Luong_tu_anh_sang.quang_hoc_luongtuanhsang"
+            android:label="Lượng tử ánh sáng" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Luong_tu_anh_sang.quang_hoc_thuyetluongtu"
+            android:label="Thuyết lượng tử - Hiện trượng quang điện" />
+        <activity
+            android:name=".Vat_lyy.Quang_hc.Luong_tu_anh_sang.quang_hoc_bo"
+            android:label="Mẫu nguyên tử Bo - Quang phổ Hydro" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong"
+            android:label="Dao động" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_daodongco"
+            android:label="Dao động cơ" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_daodongdh"
+            android:label="Dao động điều hòa" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_conlacloxo"
+            android:label="Con lắc lò xo" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_conlacdon"
+            android:label="Con lắc đơn" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_tonghopdaodong"
+            android:label="Tổng hợp giao động" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Dao_dong_co.dao_dong_tatdan"
+            android:label="Dao động tắt dần - Dao động cưỡng bức - Cộng hưởng" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Song_co_va_song_am.dao_dong_songcovasongam"
+            android:label="Sóng cơ và sóng âm" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Song_co_va_song_am.dao_dong_songco"
+            android:label="Sóng cơ học" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Song_co_va_song_am.dao_dong_giaothoasong"
+            android:label="Giao thoa sóng" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Song_co_va_song_am.dao_dong_songdung"
+            android:label="Sóng dừng" />
+        <activity
+            android:name=".Vat_lyy.Dao_dong.Song_co_va_song_am.dao_dong_songam"
+            android:label="Sóng âm" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan"
+            android:label="Hạt nhân" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_cautaohatnhan"
+            android:label="Cấu tạo hạt nhân nguyên tử - Độ hụt khối" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_puhatnhan"
+            android:label="Phản ứng hạt nhân" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_phongxa"
+            android:label="Phóng xạ" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_hethucanhxtanh"
+            android:label="Hệ thức Einstein giữa năng lượng và khối lượng" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_phanhach"
+            android:label="Phản ứng phân hạch - Phản ứng nhiệt hạch" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_cacdangbt"
+            android:label="Các dạng bài tập" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_xacdinhpxa"
+            android:label="Xác định các đại lượng đặc trưng cho sự phản xạ" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_chukibanra"
+            android:label="Tính chu kì bán rã của các chất phóng xạ" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_tinhtuoi"
+            android:label="Tính tuổi của các mẫu vật cổ" />
+        <activity
+            android:name=".Vat_lyy.Hat_nhann.hat_nhan_btpuhatnhan"
+            android:label="Phản ứng hạt nhân" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10"
+            android:label="Kiến thức hóa học lớp 10" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_kienthuchoacoban"
+            android:label="Kiến thức hóa học cơ bản" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_nguyentu"
+            android:label="Nguyên tử" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_thanhphancautao"
+            android:label="Thành phần cấu tạo nguyên tử" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_cautaovo"
+            android:label="Cấu tạo vỏ nguyên tử" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_caohinhe"
+            android:label="Cấu hình Electron nguyên tử" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_bangtuanhoan"
+            android:label="Bảng tuần hoàn" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_lienkethoahoc"
+            android:label="Liên kết hóa học" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_oxyhoakhu"
+            android:label="Phản ứng Oxy Hóa - Khử" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_nhomhalogen"
+            android:label="Nhóm Halogen" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_oxyluuhuynh"
+            android:label="Oxy - Lưu huỳnh" />
+        <activity
+            android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_10.hoa_10_tocdophanung"
+            android:label="Tốc độ phản ứng - Cân bằng hóa học" />
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.hoa_11"
+            android:label="Kiến thức hóa học lớp 11"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_voco"
+            android:label="Chương vô cơ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_sudienli"
+            android:label="Sự điện li"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_nito"
+            android:label="Nitơ - Phốtpho"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_nhomva"
+            android:label="Kiến thức về Halogen nhóm VA"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_nitovahc"
+            android:label="Nitơ và hợp chất"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_photpho"
+            android:label="Phốtpho và hợp chất"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.vo_co.hoa_11_cacbon"
+            android:label="Cacbon - Silic"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_huuco"
+            android:label="Chương hữu cơ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_daicuonghc"
+            android:label="Đại cương về hóa hữu cơ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_ankan"
+            android:label="Hydrocacbon no (Ankan)"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_hckhongno"
+            android:label="Hydrocacbon không no"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_anken"
+            android:label="Anken"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_ankadien"
+            android:label="Ankađien"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_ankin"
+            android:label="Ankin"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_hcthom"
+            android:label="Hydrocacbon thơm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_ancol"
+            android:label="Ancol - Phenol"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_11.huu_co.hoa_11_and"
+            android:label="Anđehit - Axit Cacboxylic"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.hoa_12"
+            android:label="Kiến thức hóa học lớp 12"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Este_Lipit.hoa_12_este"
+            android:label="Este - Lipit"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Este_Lipit.hoa_12_est"
+            android:label="Este"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Este_Lipit.hoa_12_lip"
+            android:label="Lipit"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Cacbonhidrat.hoa_12_cacbonhidrat"
+            android:label="Cacbonhiđrat"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Cacbonhidrat.hoa_12_ktchugcacbonhidrat"
+            android:label="Kiến thức chung"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Cacbonhidrat.hoa_12_glu"
+            android:label="Glucozơ - Fructozơ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Cacbonhidrat.hoa_12_sac"
+            android:label="Saccarozơ - Tinh bột - Xenlulozơ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.AAP.hoa_12_ammm"
+            android:label="Amin - Aminoaxit - Peptit - Protein"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.AAP.hoa_12_ktchugamm"
+            android:label="Kiến thức chung"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.AAP.hoa_12_amin"
+            android:label="Amin"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.AAP.hoa_12_aminoax"
+            android:label="Aminoaxit"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.AAP.hoa_12_peptit"
+            android:label="Peptit - Protein"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Polime.hoa_12_plmvl"
+            android:label="Polime - Vật liệu Polime"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Polime.hoa_12_dcplm"
+            android:label="Đại cương về Polime"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Polime.hoa_12_vlplm"
+            android:label="Vật liệu Polime"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Dai_cuong_KL.hoa_12_daicuongvekl"
+            android:label="Đại cương về kim loại"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Dai_cuong_KL.hoa_12_vitrikl"
+            android:label="Vị trí của kim loại trong bản tuàn hoàn - Cấu tạo của kim loại"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Dai_cuong_KL.hoa_12_tckl"
+            android:label="Tính chất của kim loại - Dãy điện hóa của kim loại"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Dai_cuong_KL.suanmon"
+            android:label="Sự ăn mòn kim loại"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Dai_cuong_KL.hoa_12_dieuchekl"
+            android:label="Điều chế kim loại"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_klkiem"
+            android:label="Kim loại kiềm - Kim loại kiềm thổ - Nhôm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_kiem"
+            android:label="Kim loại kiềm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_hckiem"
+            android:label="Hợp chất của kim loại kiềm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_kiemtho"
+            android:label="Kim loại kiềm thổ"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_canxi"
+            android:label="Hợp chất quan trọng của canxi"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_nuoccung"
+            android:label="Nước cứng"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_klnhom"
+            android:label="Nhôm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.KL_Kiem.hoa_12_hcnhom"
+            android:label="Hợp chất của nhôm"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_Fe"
+            android:label="Sắt và một số kim loại quan trọng"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_sat"
+            android:label="Sắt"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_hcsat"
+            android:label="Hợp chất của sắt"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_crom"
+            android:label="Crom"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_hccrom"
+            android:label="Hợp chất của Crom"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.Sat_va_kl.hoa_12_dongvahc"
+            android:label="Đồng - Hợp chất của đồng"/>
+        <activity android:name=".Hoa_hocc.Kien_thuc_hoa_hoc_lop_12.hoa_12_nhanbietion"
+            android:label="Nhận biết một số Ion"/>
+        <activity android:name=".Hoa_hocc.CTgiainhanh.hoa_ctgiainhanh"
+            android:label="Công thức giải nhanh"/>
+        <activity android:name=".Hoa_hocc.CTgiainhanh.hoa_ctgnvoco"
+            android:label="Công thức giải nhanh vô cơ"/>
+        <activity android:name=".Hoa_hocc.CTgiainhanh.hoa_ctgnhuuco"
+            android:label="Công thức giải nhanh hữu cơ"></activity>
+    </application>
+
+</manifest>
